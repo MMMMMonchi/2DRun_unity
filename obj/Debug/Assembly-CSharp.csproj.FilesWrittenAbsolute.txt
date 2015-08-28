@@ -1,0 +1,11 @@
+/Users/m-yuusuke/Documents/2DTest/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/m-yuusuke/Documents/2DTest/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/m-yuusuke/Documents/2DTest/obj/Debug/Assembly-CSharp.dll
+/Users/m-yuusuke/Documents/2DTest/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/m-yuusuke/Documents/2DTest/Temp/bin/Debug/UnityEngine.dll
+/Users/m-yuusuke/Documents/2DTest/Temp/bin/Debug/UnityEditor.dll
+/Users/m-yuusuke/Documents/2DTest/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/m-yuusuke/Documents/2DTest/Temp/bin/Debug/Mono.Cecil.dll
+/Users/m-yuusuke/Documents/2DTest/Temp/bin/Debug/nunit.framework.dll
+/Users/m-yuusuke/Documents/2DTest/Temp/bin/Debug/Unity.DataContract.dll
+/Users/m-yuusuke/Documents/2DTest/Temp/bin/Debug/ICSharpCode.NRefactory.dll

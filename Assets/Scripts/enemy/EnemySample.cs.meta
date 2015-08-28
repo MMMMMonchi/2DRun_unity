@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: bba034ce5eb214dc09c2f0bd97471d6a
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - destroySE: {fileID: 8300000, guid: e94617da526334aae8c77e1f0fd60dd1, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
