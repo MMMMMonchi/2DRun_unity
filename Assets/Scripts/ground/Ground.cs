@@ -9,23 +9,23 @@ public class Ground : MonoBehaviour {
 	private float _initPositionY=0;
 
 	private float _hidePositionX=0;
-
 	private float _speed=0;
 
-	void Start () {
-
+	void Start ()
+	{
 		setPosition (_initPositionX, _initPositionY);
 	}
 
 	//this method called at initializing
-	public void Institate(float positionX,float positionY,float hidePosX){
+	public void Institate(float positionX,float positionY,float hidePosX)
+	{
 		_initPositionX = positionX;
 		_initPositionY = positionY;
 		_hidePositionX = hidePosX;
 	}
 
-	void setPosition(float positionX,float positionY){
-
+	void setPosition(float positionX,float positionY)
+	{
 		//set ground position
 		Vector2 trans = this.transform.localPosition;
 		trans.x = positionX;
@@ -34,10 +34,12 @@ public class Ground : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
 		Vector2 parentTrans = this.transform.parent.localPosition;
 		Vector2 localTrans = this.transform.localPosition;
-		if (parentTrans.x+localTrans.x<_hidePositionX) {
+		if (parentTrans.x+localTrans.x<_hidePositionX)
+		{
 			Destroy(this.gameObject);	
 		}
 	}

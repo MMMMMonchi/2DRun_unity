@@ -9,20 +9,24 @@ public class Attack : MonoBehaviour {
 	public const string ATTCK_ANIMATION_FLAG_NAME="isAttack";
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		_animator = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
 
 		// change running animation
-		if (Input.GetKeyUp(KeyCode.T)) {
+		if (Input.GetKeyUp(KeyCode.T))
+		{
 			_animator.SetBool("isAttack",false);
 		}
 
 		//change attack animation
-		if (Input.GetKeyDown (KeyCode.T)) {
+		if (Input.GetKeyDown (KeyCode.T))
+		{
 			_animator.SetBool("isAttack",true);
 		}
 	}
