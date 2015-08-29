@@ -4,8 +4,9 @@ using System.Collections;
 public class Jump : MonoBehaviour {
 
 
-		public AudioClip jumpSE;
-		public AudioClip deadSE;
+	public AudioClip jumpSE;
+	public AudioClip deadSE;
+	public AudioClip destroySE;
 
 	private Animator _animator;
 	private float _jump = 3f;
@@ -118,6 +119,13 @@ public class Jump : MonoBehaviour {
 
 				audio.PlayOneShot (deadSE);
 				Invoke ("setPos", 1);
+	}
+
+	public void callAttackSE()
+	{
+		audio.PlayOneShot (destroySE);
+		Debug.Log ("BGM");
+
 	}
 
 		void setPos(){

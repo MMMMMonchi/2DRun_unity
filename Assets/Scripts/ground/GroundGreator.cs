@@ -175,12 +175,10 @@ public class GroundGreator : MonoBehaviour {
 								System.Random random = new System.Random();
 								int dice = random.Next (25);
 								if (enemyTemp!=null&&enemyTemp.transform.position.x < 40+dice) {
-										Debug.Log ("create obj");
 										currentCountForObejct = 0;
 										createObject ();
 										System.Random random2 = new System.Random();
 										int dice2 = random2.Next (5);
-										Debug.Log (dice2 + "sss");
 										if (dice2 == 4) {
 												createObject ();
 										}
@@ -261,7 +259,6 @@ public class GroundGreator : MonoBehaviour {
 						positionY=10f;
 				}
 				if(_currentEnemyIndex<ENEMY_NUM) {
-						Debug.Log (_currentEnemyIndex );
 						GameObject enemyPrefab = (GameObject)Resources.Load (_currentEnemyIndex.ToString());
 						enemyPrefab.SetActive (true);
 						GameObject enemyIns = create (enemyPrefab, positionX, positionY);
@@ -334,8 +331,6 @@ public class GroundGreator : MonoBehaviour {
 
 						Vector2 runnerPos = _runner.transform.position;
 						Vector2 peachPos = _peachInstance.transform.position;
-						Debug.Log (runnerPos + "runnn");
-						Debug.Log (peachPos + "goalpos");
 
 						if (peachPos.x - runnerPos.x < 6.5) {
 								//Destroy (_runner.gameObject);

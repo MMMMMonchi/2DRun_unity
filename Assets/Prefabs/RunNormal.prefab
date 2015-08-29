@@ -186,6 +186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpSE: {fileID: 8300000, guid: 79c4454c388ff4aa49192a80f8e80e69, type: 3}
   deadSE: {fileID: 8300000, guid: 6a0d2a1b1ccf94529b4545dd763728c8, type: 3}
+  destroySE: {fileID: 8300000, guid: ac542328a84f74597a2d38f9bf938636, type: 3}
   GraundLayer:
     serializedVersion: 2
     m_Bits: 4096
